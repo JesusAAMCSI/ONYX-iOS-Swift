@@ -1,0 +1,50 @@
+PODS:
+  - Flutter (1.0.0)
+  - onyx_plugin (8.0.2):
+    - Flutter
+    - OnyxCamera (= 8.2.1)
+  - OnyxCamera (8.2.1):
+    - OnyxCore (= 8.1.1)
+    - TensorFlowLiteObjC (= 2.7.0)
+  - OnyxCore (8.1.1):
+    - OpenCV (= 4.5.3)
+  - OpenCV (4.5.3)
+  - TensorFlowLiteC (2.7.0):
+    - TensorFlowLiteC/Core (= 2.7.0)
+  - TensorFlowLiteC/Core (2.7.0)
+  - TensorFlowLiteObjC (2.7.0):
+    - TensorFlowLiteObjC/Core (= 2.7.0)
+  - TensorFlowLiteObjC/Core (2.7.0):
+    - TensorFlowLiteC (= 2.7.0)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - onyx_plugin (from `.symlinks/plugins/onyx_plugin/ios`)
+
+SPEC REPOS:
+  https://gitlab.com/telosid/plugins/specs.git:
+    - OnyxCamera
+    - OnyxCore
+    - OpenCV
+  trunk:
+    - TensorFlowLiteC
+    - TensorFlowLiteObjC
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  onyx_plugin:
+    :path: ".symlinks/plugins/onyx_plugin/ios"
+
+SPEC CHECKSUMS:
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  onyx_plugin: 9c545cfb2ca1c484d14b8ef676855f613752c3ca
+  OnyxCamera: fd35be83be56b46b722096dd92fc0d4c973b4997
+  OnyxCore: 8061dbbc8d47e1e3d1fda714304f8e3f597dd474
+  OpenCV: b40007c56131ddb9ebcf3f8a3939a304c15100ba
+  TensorFlowLiteC: 50d75ed3640c15dcfbaf88ca4326297b445e00a1
+  TensorFlowLiteObjC: d9e20bf9a4c22994e480ebf57aa9693262ee49a2
+
+PODFILE CHECKSUM: d3cb14baeb922dfd46684ca0445641b81a51d11f
+
+COCOAPODS: 1.14.3
